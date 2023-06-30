@@ -1,0 +1,107 @@
+body{
+    background-image: url(Blue-dotted-Background-images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .mform{
+      border-style: solid;
+      border-color: black;
+       height: 200px;
+       width: 350px;
+       background-color:transparent;
+       font-size: 20px;
+       border-radius: 20px;
+       margin: auto;
+       margin-top: 150px;
+  }
+
+  .mform:hover{
+      transition: 1s;
+      border-radius: 10px;
+      box-shadow: 1px 1px 10px 3px #999999;
+  }
+
+  label{
+    margin-left: 30px;
+  }
+
+  .but{
+    height: 30px;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 20px;
+    color:black;
+    margin-right: 20px;
+    border: 1px solid balck;
+    cursor: pointer;
+  }
+
+  .but:hover{
+      border-radius: 8px;
+      background-color: darkblue;
+      color: white;
+      transition: 1s;
+      height: 35px;
+      width: 85;
+      border:none;
+  }
+
+  input{
+      border: 1px solid black;
+      border-radius: 8px;
+      background-color:transparent;
+      height: 25px;
+  }
+
+  input:hover{
+      border:2px solid black;
+      border-radius: 5px;
+      height:30px;
+      background-color: white;
+  }
+
+.menu{
+  border:2px solid black;
+  margin-right:6px;
+  margin-left: 6px;
+  height: 37px;
+  border-radius:0px 20px;
+  padding-right: 10px;
+  display: flex;
+}
+
+.menu-title{
+ margin-top: 5px;
+ margin-left: 15px;
+ margin-right: 850px;
+ font-size: 25px;
+ font-weight: 800;
+}
+
+.menu-item{
+  text-align: end;
+}
+
+.item{
+  border: none;
+  background-color:transparent;
+  height:25px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 15px;
+
+}
+
+.item:hover
+{
+ font-size:12px;
+ transition: 40ms;
+ cursor:pointer;
+}
+
+.login{
+  height:20px;
+  margin-top:10px;
+  border-radius: 80%;
+}
